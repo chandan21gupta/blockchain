@@ -6,7 +6,7 @@ class Blockchain
         this.chain = [];
         this.pendingTransactions = [];
 
-        this.createNewBlock(nonce,'0','0');
+        this.createNewBlock(100,'0','0');
     }
 
     createNewBlock(nonce,previousBlockHash,hash) 
