@@ -1,4 +1,6 @@
 const sha256 = require('sha256');
+var newHashX;
+var newBlockX
 class Blockchain 
 {
     constructor() 
